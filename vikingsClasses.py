@@ -20,7 +20,7 @@ class Soldier:
 
 class Viking(Soldier):
     def __init__(self, name, health, strength):
-            super(). __init__(health, strength)
+        super(). __init__(health, strength)
         self.name = name
 
     def attack():
@@ -98,23 +98,19 @@ class War():
 class War2:
 
     def __init__(self):
-        # your code here
+        pass
 
     def addViking(self, Viking):
-        # your code here
+        pass
     
     def addSaxon(self, Saxon):
-        # your code here
+        pass
     
     def vikingAttack(self):
-        # your code here
+        pass
 
     def saxonAttack(self):
-        # your code here
+        pass
 
     def showStatus(self):
-        # your code here
-
-    pass
-
-
+        pass
