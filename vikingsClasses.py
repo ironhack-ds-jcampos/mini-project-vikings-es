@@ -63,7 +63,15 @@ class War():
         return res
     
     def saxonAttack(self):
-        # your code here
+        if len(self.saxonArmy) <= 0 or len(self.saxonArmy) <= 0:
+            return None
+
+        attacker = self.saxonArmy[random.randrange(0, len(self.saxonArmy))]
+        victim = self.vikingArmy[random.randrange(0, len(self.vikingArmy))]
+        res = victim.receiveDamage(attacker.strength)
+
+        self.vikingArmy = [viking for viking in self.vikingArmy if viking.health > 0]
+        return res
 
     def showStatus(self):
         # your code here
