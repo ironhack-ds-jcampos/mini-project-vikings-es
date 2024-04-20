@@ -5,13 +5,14 @@ import random
 
 class Soldier:
     def __init__(self, health, strength):
-        # your code here
+        self.health = health
+        self.strength = strength
     
     def attack(self):
-        # your code here
+        return self.strength
 
     def receiveDamage(self, damage):
-        # your code here
+        self.health = self.health - damage
     
 
 # Viking
