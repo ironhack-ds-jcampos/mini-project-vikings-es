@@ -74,8 +74,13 @@ class War():
         return res
 
     def showStatus(self):
-        # your code here
-    pass
+        if len(self.saxonArmy) <= 0:
+            print("¡Los Vikingos han ganado la guerra del siglo!")
+        elif len(self.vikingAttack) <= 0:
+            print("Los Sajones han luchado por sus vidas y sobreviven otro día...")
+        else:
+            print("Los Vikingos y los Sajones todavía están en plena batalla.")
+
 
 #yop
 class War2:
