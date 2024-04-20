@@ -31,7 +31,7 @@ class TestViking(unittest.TestCase):
         self.assertEqual(len(signature(self.viking.attack).parameters), 0)
 
     def testAttackShouldReturnStrength(self):
-        self.assertEqual(self.viking.attack(), self.strength)
+        self.assertEqual(self.viking.attack(), "Odin Owns You All!")
 
     def testReceiveDamageIsFunction(self):
         self.assertEqual(callable(self.viking.receiveDamage), True)

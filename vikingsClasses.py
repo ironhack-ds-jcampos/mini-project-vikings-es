@@ -23,18 +23,18 @@ class Viking(Soldier):
         super(). __init__(health, strength)
         self.name = name
 
-    def attack():
+    def attack(self):
         return "Odin Owns You All!"
 
     def receiveDamage(self, damage):
         self.health -= damage
         if self.health > 0:
-            return f"{self.name} ha recibido {damage} puntos de daño"
+            return f"{self.name} has received {damage} points of damage"
         else:
-            return f"{self.name} ha muerto en acto de combate"
+            return f"{self.name} has died in act of combat"
     
-    def battleCry():
-        return "¡Odin os posee a todos!"
+    def battleCry(self):
+        return "Odin Owns You All!"
 
 # Saxon
 
