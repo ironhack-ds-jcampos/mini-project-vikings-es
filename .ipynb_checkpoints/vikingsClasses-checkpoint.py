@@ -5,34 +5,26 @@ import random
 
 class Soldier:
     def __init__(self, health, strength):
-        self.health = health
-        self.strength = strength
-        
+        # your code here
+    
     def attack(self):
-        return self.strength
+        # your code here
 
     def receiveDamage(self, damage):
-        self.health -= damage
+        # your code here
+    
 
 # Viking
 
 class Viking(Soldier):
     def __init__(self, name, health, strength):
-            super(). __init__(health, strength)
-        self.name = name
+        # your code here
 
-    def attack():
-        return "Odin Owns You All!"
+    def battleCry(self):
+        # your code here
 
     def receiveDamage(self, damage):
-        self.health -= damage
-        if self.health > 0:
-            return f"{self.name} ha recibido {damage} puntos de daño"
-        else:
-            return f"{self.name} ha muerto en acto de combate"
-    
-    def battleCry():
-        return "¡Odin os posee a todos!"
+        # your code here
 
 # Saxon
 
