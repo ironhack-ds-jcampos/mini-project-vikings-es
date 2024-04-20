@@ -46,9 +46,9 @@ class Saxon(Soldier):
     def receiveDamage(self, damage):
         self.health -= damage
         if self.health >0:
-            return f"Un 'Saxon' ha recibido {damage} punto de daño"
+            return f"A Saxon has received {damage} points of damage"
         else:
-            return f"Un 'Saxon' ha muerto en combate"
+            return f"A Saxon has died in combat"
 
 # Davicente
 
