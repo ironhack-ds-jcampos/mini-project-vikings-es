@@ -13,6 +13,8 @@ class Soldier:
 
     def receiveDamage(self, damage):
         self.health = self.health - damage
+        if self.health < 0:
+            self.health = 0
     
 
 # Viking
